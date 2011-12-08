@@ -1,0 +1,10 @@
+; $Id: coolaid.info,v 1.1.2.1 2009/09/13 04:37:09 danielb Exp $
+name = Cool Aid
+description = Provides a user-submitted per-page custom help message (or button for pop-up help).
+core = 6.x
+; Information added by drupal.org packaging script on 2010-12-13
+version = "6.x-1.8"
+core = "6.x"
+project = "coolaid"
+datestamp = "1292205335"
+
