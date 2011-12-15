@@ -1,0 +1,172 @@
+/
+*
+**
+** TYPOGRAPHY
+**
+*/
+
+
+body {
+	font-family:  'Lucida Grande', Helvetica, arial, sans-serif;
+	font-size:17px; 
+	line-height:1.5em;
+}
+
+
+a .organization, 
+a .task, 
+p a
+{ 
+    text-decoration: underline;
+}
+
+#pagebar li.active a{ 
+    color: #F96407;
+}
+
+
+div#toolbar-help a{
+     color: yellow;
+}
+
+
+div#toolbar-help strong,
+#toolbar-link-user strong{ 
+   color: yellow;
+}
+
+
+#toolbar-link-user strong{ 
+    color: #F96407;
+}
+
+#content{
+	font-family:  'Lucida Grande', Helvetica, arial, sans-serif;
+}
+
+h1.break {
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+        font-weight: normal; 
+        font-size: 60px;
+        text-transform: uppercase;
+        color: #000;
+        background-color: #ffcc00;
+        line-height: 1;
+	padding: .125em 0 0 .5em;
+	text-shadow: #bbb 1px 1px 2px;
+}
+
+h1{
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+        font-weight: normal; 
+        font-size: 42px;
+        color: #000;
+        background-color: #ffcc00;
+        line-height: 1;
+	padding: .125em 0 0 .5em;
+	text-shadow: #bbb 1px 1px 2px;
+}
+
+
+h2 {
+	font-size:1.5em;
+	font-weight:bold;	
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+	}
+
+.pane-title{
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+       font-size:90%;
+}
+
+h3, legend {
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+	font-size: 2em;
+	font-weight:bold;
+        margin-bottom:5px;
+        color:#CFC2C3;
+        border-bottom: 1px solid;
+}
+
+h4 {
+	font-family: 'OSPDIN', sans-serif; font-weight: normal; 
+	font-size:1.0em;
+	font-weight:bold;
+	margin-bottom:0.5em;
+    color:#CFC2C3;
+    border-bottom: 1px solid;
+    width: 410px;
+}
+
+
+
+p, ul, ol {
+	margin-bottom:1em;
+}
+
+.breadcrumb {
+	font-size:1em;
+}
+
+.description {
+	font-size:1.2em !important;
+	color:#666;
+}
+
+
+ul,
+ol
+{
+	padding-left: 1.3em;
+}
+
+li active {
+
+}
+
+em {
+	font-style:italic;
+}
+
+b, 
+strong, 
+#pagebar strong,
+#statusbar strong {
+	font-weight:bold;
+}
+
+dt {      
+        font-size:30px;
+        font-weight:bold;
+        line-height: 100%;
+}
+
+
+dd {
+	margin-bottom:1em;
+        line-height:90%;
+}
+
+#content td,
+#content td h1,
+#maincol td,
+#maincol .description strong,
+#maincol .description em,
+#sidecol .views-field-type,
+#system-modules td label {
+
+}
+
+#content .description {
+
+	font-family:  'Lucida Grande', Helvetica, arial, sans-serif;
+}
+
+table th{
+        color:#BFA7A9;
+        font-size: 20px;     
+}
+
+#page-theme-order td{
+
+}

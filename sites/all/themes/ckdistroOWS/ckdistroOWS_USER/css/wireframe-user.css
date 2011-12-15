@@ -1,0 +1,325 @@
+/*******************************
+
+	WIREFRAMES
+	
+	Creates a base layout for the template.
+	
+	CHANGED: 24 JUNE 2010
+
+*******************************/
+
+body#ckdistro {
+}
+
+#header {
+	padding:0 6%;
+	height:200px;
+}
+
+#logo{
+        margin: 159px 0 0 -25px;
+        width:120px;
+}
+
+
+#pagebar {
+	padding:0 3%;
+}
+
+#pagebar ul.tabs.primary{
+     position: absolute;
+     margin: 5px 0px 0 0px;
+     width:100px;
+}
+
+
+
+#pagebar ul.tabs.primary li .active{
+
+}
+
+
+ul.primary li a {
+	display:block;
+	background-color:#CFC2C3;
+	color:#FFF;
+	border-style:1px solid;
+	height:auto;
+	padding:5px 21px;
+	text-decoration:none;
+	font-size:16px;
+	line-height:1.0em;
+        width: 100px;
+}
+
+#pagebar ul.primary li.active a {
+	background-color:red;
+	color:#FFF;
+	font-weight:bold;
+	font-size:19px;
+        border: 1px solid red;
+	margin:5px 0;
+	padding-top:7px;
+}
+
+
+#pagebar .breadcrumb{
+   display:none;
+}
+
+#pagebar h1{
+    position: absolute;
+    margin: -115px 0px 0 200px;
+    color: #FFF;
+    font-size: 90px;
+    text-shadow: #bbb 1px 1px 2px;
+}
+
+#pagebar ul.tabs.secondary {
+	border-bottom:none;
+	margin:3px 0 0 200px;
+	padding:0;
+	float:right;
+}
+
+
+#statusbar {
+	padding:0 6%;
+	margin:0 0 30px 0;
+}
+
+#statusbar p{
+	margin:10px 0 30px 160px;
+        line-height: 100%;
+}
+
+#content {
+    padding:0 10%;
+    margin:0px 0 0 120px;
+    min-height: 190px;
+}
+
+#maincol {
+	float:left;
+	width:70%;
+    margin: 0 20px 0 0;
+}
+
+#sidecol {
+	float:left;
+	width:300px;
+}
+
+#footer-wrapper {
+	clear:both;
+	padding:21px 0 0;
+}
+
+
+#topfooter {
+	clear:both;
+	padding:21px 0 0;
+}
+
+#footer {
+	clear:both;
+	padding:21px 0 0;
+}
+
+/*
+**
+** MISC
+**
+*/
+
+div.panel-panel{
+font-size: 90%;
+}
+
+div.panel-col-first{
+margin: 0 20px 0 -20px;
+}
+
+/*******************************
+*	Toolbox Region
+*******************************/
+
+#toolbox{
+ width:800px; 
+ position:absolute;
+ clear:both;
+ width:100%;
+ }
+
+
+
+/*
+**
+** SUPERFISH TOOLBOX BAR
+**
+*/
+#block-superfish-1,
+#block-superfish-2 {
+  font-size:75%;
+  margin-left:250px;
+}
+
+#block-superfish-1 h4{
+ display:none;
+}
+
+#menu-10-1,
+#menu-15-1,
+#menu-16-1,
+#menu-17-1,
+#menu-18-1,
+#menu-20-1,
+#menu-590-1, 
+#menu-798-1, 
+#menu-1082-1,
+#menu-1083-1,
+#menu-1084-1,
+#menu-1088-1,
+#menu-1091-1,
+#menu-1096-1,
+#menu-1097-1,
+#menu-1098-1,
+#menu-1100-1,
+#menu-1102-1,
+#menu-1523-1,
+#menu-1794-1,
+#menu-4768-1,
+#menu-6444-1,
+#menu-6445-1,
+#menu-1086-2,
+#menu-158-2,
+#menu-228-2,
+#menu-357-2,
+#menu-164-2,
+#menu-678-2,
+#menu-166-2, 
+#menu-437-2, 
+#menu-1162-2,
+#menu-1507-2,
+#menu-1214-2,
+#menu-1462-2,
+#menu-1272-2{
+  background-color:transparent;
+  border:none;
+  color: #E1E1E1 !important;
+}
+
+.sf-with-ul {
+  margin-right: -10px;
+}
+
+.sf-menu.sf-style-white a {
+  border: none;
+  text-decoration: none;
+  color: #FFF !important;
+} 
+
+.sf-menu.sf-style-white li,
+.sf-navbar.sf-style-white{
+}
+.sf-menu.sf-style-white li li {
+  background: #F1F1F1;
+  border-bottom: 1PX SOLID #E1E1E1;
+}
+.sf-menu.sf-style-white li li li{
+  background: #e1e1e1;
+  border-bottom: 1PX SOLID #DDD;
+}
+
+.sf-menu.sf-style-white li li a,
+.sf-menu.sf-style-white li li li a{
+  color:#000 !important;
+}
+.sf-menu.sf-style-white li:hover,
+.sf-menu.sf-style-white li.sfHover,
+.sf-menu.sf-style-white li.active a,
+.sf-menu.sf-style-white a:focus,
+.sf-menu.sf-style-white a:hover,
+.sf-menu.sf-style-white a:active,
+.sf-navbar.sf-style-white li li {
+  background: #F00;
+  color: #FFF !important;
+}
+.sf-navbar.sf-style-white li ul {
+  background-color: #e9e9e9;
+  width: 100%;
+  color:#000;
+}
+.sf-navbar.sf-style-white li ul li ul {
+  background-color: transparent;
+}
+.sf-menu.sf-style-white .sf-sub-indicator {
+  background-image: url('../../images/arrows-777777.png');
+}
+.sf-menu.rtl.sf-style-white .sf-sub-indicator {
+  background-image: url('../../images/arrows-777777-rtl.png');
+}
+
+/*******************************
+	admin sidebar
+*******************************/
+#block-quicktabs-5 .block{
+ margin-left:30px;
+}
+
+/*******************************
+	my activity
+*******************************/
+
+#block-views-my_activity-block_1{
+margin-left:px;
+}
+
+/*******************************
+	Tips
+*******************************/
+#block-block-2 {
+  margin-left:10px;
+}
+
+#block-block-2  ul{
+  margin:20px 0 0 0;
+}
+
+
+#block-block-2 li{
+  margin: 10px 0 0 0;
+  line-height: 110%;
+}
+
+/*
+**
+** NODEFORM-COLUMNS
+**
+*/
+
+.node-form .form-region-right {
+  width: 37%;
+  float: right;
+  margin-right:10px;
+  background-color: transparent;
+}
+
+
+/*
+**
+** STORMTICKET
+**
+*/
+
+
+/*
+**
+** THE LABS 
+**
+*/
+
+#node-form .revision_information{
+     margin: 0 0 80px 0;
+}
+

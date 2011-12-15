@@ -1,0 +1,36 @@
+name = ckDistro DAILY GOTHAM SECTION
+description = A SECTION SubTheme for based on ckdistroOWS
+screenshot = screenshot.png
+version = 6-alpha
+core = 6.x
+engine = phptemplate
+base theme = ckdistroHOME
+
+; Stylesheets
+;stylesheets[all][] = css/colour.css
+stylesheets[all][] = css/styles.css
+
+
+; Regions
+regions[toolbox] = Toolbox
+regions[top] = Top
+regions[menubar] = Menubar
+regions[pagebar] = Pagebar
+regions[topcontent] = Top Content
+regions[content] = Content
+regions[topsidebar] = Top Sidebar
+regions[sidebar] = Sidebar
+regions[topfooter]  = Top Footer
+regions[footer]  = Footer
+
+
+; Settings
+features[] = favicon
+features[] = logo
+
+; Information added by Liza Sabater
+version = "6-alpha"
+core = "6.x"
+project = "ckDistro"
+datestamp = "30 April 2011"
+

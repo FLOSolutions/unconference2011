@@ -1,0 +1,288 @@
+/*******************************
+
+	TABS
+	
+	CSS for Tabs, primary and secondary. 
+	
+	**This file can be included in other themes to provide a nicer base look for tabs.
+
+*******************************/
+
+
+ul.primary {
+	border-bottom:1px solid #DDD;
+        width:100%;
+	border-collapse:inherit;
+	height:auto;
+	line-height:normal;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 0 40px 0;
+	padding:0;
+	float:left;
+}
+
+ul.tabs li {
+	float:left;
+}
+
+ul.primary li a {
+	display:block;
+	background-color:#CFC2C3;
+	color:#FFF;
+	border-style:1px solid;
+	border-width:1px;
+	height:auto;
+	margin:5px 4px 0 0;
+	padding:5px 21px;
+	text-decoration:none;
+	font-size:16px;
+	line-height:1.0em;
+}
+
+ul.primary li.active a {
+	background-color:#FFFFFF;
+	color:#000;
+	font-weight:bold;
+	font-size:19px;
+	border-style:1px solid;
+	margin-top:0;
+	padding-top:7px;
+}
+
+ul.tabs li a:hover {
+	background-color:#515151;
+	text-decoration:none;
+}
+
+ul.tabs li.active a:hover {
+	background-color:#FFF;
+}
+
+
+ul.secondary {
+	border-bottom:none;
+	margin:3px 0 0;
+	padding:0;
+	float:right;
+}
+
+ul.secondary li {
+	border-right:none;
+	padding:0;
+}
+
+ul.secondary li a {
+	display:block;
+	background-color:#BBB;
+	color:#FFF;
+	border-style:none;
+	border-width:1px;
+	height:auto;
+	margin:4px 4px 0 0;
+	padding:5px 18px;
+	text-decoration:none;
+	font-size:14px;
+	line-height:1.0em;
+}
+
+ul.secondary li.active a {
+	background-color:#FFFFFF;
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+	border-style:none;
+	margin-top:0;
+	padding-top:7px;
+}
+
+
+
+/* 
+**
+** NAVIGATION BAR
+**
+*/
+
+#navbar {
+    margin: -31px auto 0 auto;
+	padding:0px 10px;
+	text-transform:uppercase;
+	background:#2c2c2c; 
+	font-size:60%;
+    width:980px;
+}
+
+#navbar a{
+    text-decoration:none;
+}
+
+#menu-bar {
+    position: absolute;  
+    margin: -85px 0 0 800px;  
+}
+
+#menu-bar ul {
+    list-style: none;
+    z-index:10;
+}
+
+.menu {
+    font-family: 'PTSansBold', sans-serif;
+    color: #666;
+}
+
+
+#menu-bar .first{
+    border-left:1px solid #888;
+}
+
+
+
+#menu-bar li {
+	float:left;
+	list-style:none;
+	cursor: pointer;
+	display:block;
+	border-right:1px solid #888;
+}
+
+ 
+#menu-bar li:hover, 
+#menu-bar li a:hover {
+	background: #FF0000;
+}
+ 
+#menu-bar a, 
+#menu-bar a:visited {
+	margin: 0px 0 0 0;
+	padding:8px 16px;
+	font-weight:bold;
+	color:#FFF;
+	display:block;
+}
+
+
+#menu-bar a:hover
+{
+	text-decoration:none;
+	display:block;
+}
+
+
+/* Dropdown Menus */
+
+#menu-bar li {
+	float: left;
+	margin: 0;
+	padding: 0px;
+}
+
+	
+#menu-bar li li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 122px;
+	text-transform:none;
+}
+
+	
+#menu-bar li li a, #menu-bar li li a:link, #menu-bar li li a:visited {
+	background: #2B2B2B;
+	width: 122px;
+	float: none;
+	margin: 0px;
+	padding: 5px 10px 5px 18px;
+	border-top: 1px solid #C0C0C0;
+}
+
+	
+#menu-bar li li a:hover, #menu-bar li li a:active {
+	background: #666666;
+	padding: 5px 10px 5px 18px;
+}
+
+
+#menu-bar li ul {
+	position: absolute;
+	width: 10em;
+	display: none;
+}
+
+
+#menu-bar li:hover ul {
+	display: block;
+}
+
+
+#menu-bar li li ul {
+    top:0px;
+    left:140px;
+    display: none!important;
+}
+
+
+#menu-bar li li:hover ul {
+    display: block!important;
+    border-left: 1px solid #C0C0C0;
+}
+
+
+/* 
+**
+** SEARCH Form Elements 
+**
+*/
+
+#edit-search-theme-form-1{
+    width:200px;
+    margin-right:;
+}
+
+
+#searchform {
+	width:280px;
+	float:right;
+	text-align:right;
+	padding-top:8px;
+	margin-right:-10px;
+}
+
+#search-form{
+    font-size:24px;
+}
+
+#search-form .form-text,
+#search-form .criterion, 
+#search-form .form-select {
+    font-size:24px;
+    width:500px;
+}
+
+#search-form option,
+#search-form .form-text {
+  font-family:'PTSerifItalic';
+  background-color: #FFF;
+}
+
+#search-form optgroup {
+  font-family:'PTSerifBold';
+  font-style: normal;
+  background-color: #EEE;
+}
+
+
+#search-form .form-submit{
+   font-size: 20px;
+   font-family: M1cBold;
+   color: red;
+   display:block;
+}
+
+
+
+
+
+

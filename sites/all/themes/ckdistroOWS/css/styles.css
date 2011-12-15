@@ -1,0 +1,158 @@
+/*
+**
+**	STYLES
+** 	Make all color and style changes here. 
+**      DO NOT TOUCH COLOUR.CSS AT ALL
+**
+**
+*/
+
+
+a {
+	text-decoration:none;
+        color: #F76002;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+body#ckdistro{
+background-color: #F2F9F9;
+}
+
+
+#mainbody, 
+#content{
+  background: #FFF url(../img/background.png) repeat-y;
+
+}
+
+#maincol, 
+#sidecol, 
+#content{ 
+  background-color: #FFF;
+
+}
+
+#header {
+	border-bottom:1px solid #e1e1e1;
+	background: none;
+}
+
+
+#header h1.break {
+}
+
+#pagebar {
+	/* background:#FFFFFF url(../img/bg_pagebar.png) repeat-x bottom;
+	border-top:1px solid #f6f6f6;
+      */
+
+   background-color: #FFF;
+ }
+
+#topfooter{
+ background-color: #000;
+ color: #EEE;
+}
+
+p.author-message{
+  color: #FFF;
+}
+
+p.author-message a {
+	text-decoration:underline;
+	color:#bbb;
+}
+
+p.author-message a:hover {
+}
+
+
+#footer {
+	padding: 15px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/******************** MISCELLANEAOUS *******************************/
+
+
+
+
+/*
+**
+** for secondary links/sections 
+**
+*/
+
+
+#block-menu-secondary-links li.leaf{
+background-image: none;
+}
+
+/*
+**
+** FOLLOW
+**
+*/
+
+#block-follow-site{
+ width: 270px;
+ margin: 0 0 0 0px;
+}
+
+#block-follow-site  h4{
+ width: 250px;
+ margin: 0 0 20px 0px;
+}
+
+
+a.follow-link {
+	height: 30px;  
+	float: left;
+	width: 40px;
+	overflow:hidden;
+	line-height: 26px;
+	padding: 10px 35px 10px 0;
+	text-indent: -9999px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+
+/*
+**
+** FIRST TIME REMINDER
+**
+*/
+
+#block-block-4 li{
+  margin: 0 0 10px 10px;
+  width: 300px;
+}
+
+#block-block-4 .block-icon{
+ margin:0 10px 0 0;
+}
+
+/*
+**
+** SEARCH BOX TOP
+**
+*/
+
+#block-search-0{
+ width: 400px;
+ margin: 70px 0 0 570px;
+}
+
+#block-search-0 label{
+ display: none;
+}
+
+#block-search-0 .form-submit {
+ background-color:#BBB;
+}

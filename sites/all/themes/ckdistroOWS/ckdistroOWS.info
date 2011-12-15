@@ -1,0 +1,45 @@
+name = ckDistro OWS
+description = An OWS Theme based on ckDistro 
+screenshot = screenshot.png
+version = 6-alpha
+core = 6.x
+engine = phptemplate
+
+; Stylesheets
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/colour.css
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/wireframe.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/css3.css
+stylesheets[all][] = css/table.css
+stylesheets[all][] = css/forms.css
+stylesheets[all][] = css/status.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/modules.css
+
+scripts[] = js/scripts.js
+
+; Regions
+regions[toolbox] = Toolbox
+regions[top] = Top
+regions[menubar] = Menubar
+regions[pagebar] = Pagebar
+regions[topcontent] = Top Content
+regions[content] = Content
+regions[topsidebar] = Top Sidebar
+regions[sidebar] = Sidebar
+regions[topfooter]  = Top Footer
+regions[footer]  = Footer
+
+; Settings
+features[] = favicon
+features[] = logo
+
+; Information added by Liza Sabater
+version = "6-alpha"
+core = "6.x"
+project = "ckDistro"
+datestamp = "14 December 2011"
+

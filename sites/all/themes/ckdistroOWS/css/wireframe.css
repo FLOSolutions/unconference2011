@@ -1,0 +1,327 @@
+/*
+**
+**	WIREFRAMES
+** 	Creates a base layout for the template.
+**      CREATED: 24 JUNE 2010
+**      CHANGED: 14 DECEMBER 2011
+**
+*/
+
+/*
+**
+** MAIN
+**
+*/
+
+body#ckdistro {
+}
+
+#mainbody{
+  float: right;
+  width:100%;
+  margin: 0;
+  border-left: 2px solid #EEE;
+  border-right: 2px solid #EEE;
+
+}
+
+/*
+**
+** HEADER
+**
+*/
+
+#header {
+	padding:0 6%;
+	height:
+        margin:0px 0 70px 0;
+
+}
+
+
+#header h1 {
+	position:relative;
+	top:39px;
+}
+
+#header h1.break {
+	margin:0 0 0 230px;
+	position: absolute;
+        background-color:transparent;
+}
+
+#header img {
+	float:left; 
+        background-color: #ffcc00;
+
+}
+
+/*
+**
+** LOGO
+**
+*/
+
+#logo{ 
+    position: absolute;
+    margin: 30px 0 0 150px;
+    width:
+}
+
+
+/*
+**
+** TOOLBOX
+**
+*/
+
+
+#toolbox{
+ position:absolute;
+ clear:both;
+ width:1020px;
+ margin: 0px 0 0 0;
+ background-color: #7aa;
+ background-image:url(../img/menubar.png) }
+
+/*
+**
+** TOP 
+**
+*/
+
+#top{
+ position:absolute;
+ clear:both;
+ width:100%;
+ margin: 0px;
+ background-color:#FFCC00;
+ height:150px;
+ }
+
+
+/*
+**
+** MENUBAR
+**
+*/
+
+
+#menubar{
+ top: 150px;
+ position: absolute;
+ background-color: #000;
+ height: 43px;
+ width: 100%;
+ margin:0 ;
+}
+
+
+ 
+/*
+**
+** PAGEBAR
+**
+*/
+
+#pagebar {
+        margin: 100px 0 0 0;
+	padding:0 3%;
+	overflow:hidden;
+}
+
+#pagebar h1 {
+	margin:8px 0 10px;
+}
+
+/*
+**
+** STATUSBAR
+**
+*/
+
+
+#statusbar {
+	padding:0 6%;
+	margin:0 0 30px 0;
+}
+
+/*
+**
+** CONTENT & BREADCRUMBS
+**
+*/
+
+
+#content{
+	margin:250px auto 0 auto;
+        width:960px;
+}
+
+#content p{
+        margin: 20px;
+}
+
+#content ul, 
+#content ol, 
+#content li{
+        margin: 5px 20px;
+}
+.breadcrumb {
+	margin:10px 0 0;
+	padding:0;
+}
+
+
+/*
+**
+** COLUMNS
+**
+*/
+
+
+#maincol {
+    float: left;
+    width:60%;
+    margin: 0 20px 0 0;
+}
+
+#sidecol {
+        top: 0;
+	width:300px;
+	margin: 0px 0 0 600px;
+
+}
+
+#sidecol h4{
+	width:350px;
+
+}
+
+
+/*
+**
+** FOOTER
+**
+*/
+
+p.author-message {
+	padding-top:2em;
+	font-size:0.857em;
+}
+
+
+#footer-wrapper {
+	clear:both;
+	padding:21px 0 0;
+        margin: -20px 0 0 0;
+}
+
+#topfooter {
+	clear:both;
+        margin: 0 auto;
+}
+
+#mini-panel-main_footer_compact{
+        margin: -20px 0 0 20px;
+        padding: 20px;
+}
+
+
+#mini-panel-main_footer {
+        width: 960px;
+        margin: 0 0px 0 10px;
+        padding:20px;
+}
+
+#mini-panel-main_footer .panel-col-first{
+  width: 275px;
+}
+
+
+#mini-panel-main_footer .panel-col-last{
+  width: 270px;
+}
+
+#mini-panel-main_footer .panel-col{
+ margin: 0 50px 0 20px;
+}
+
+
+
+#mini-panel-sections_links {
+  width: 300px;
+}
+
+#block-panels_mini-sections_links h4{
+  width: 300px;
+}
+
+#mini-panel-sections_links .panel-col-first{
+  margin: 0 0 0 0;
+}
+
+#footer {
+	clear:both;
+        margin: 0 auto;
+	padding: 10px;
+        height: 15px;
+        }
+
+/************************* MISCELLANEAOUS *************************/
+
+/*
+**
+** TIPS
+**
+*/
+
+#block-block-2 {
+  margin-left:10px;
+}
+
+#block-block-2  ul{
+  margin:20px 0 0 0;
+}
+
+
+#block-block-2 li{
+  margin: 10px 0 0 0;
+  line-height: 110%;
+}
+
+/*
+**
+** NODEFORM-COLUMNS
+**
+*/
+
+.node-form .form-region-right {
+  width: 37%;
+  float: right;
+  margin-right:10px;
+  background-color: transparent;
+}
+
+
+/*
+**
+** THE LABS 
+**
+*/
+
+#node-form .revision_information{
+     margin: 0 0 80px 0;
+}
+
+/*
+**
+** DONATION PAGE
+** 
+**
+*/
+
+#node-1{  
+text-align: center;
+margin: 0 10%;
+}

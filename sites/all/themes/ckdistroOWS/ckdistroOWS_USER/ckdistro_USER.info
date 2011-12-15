@@ -1,0 +1,36 @@
+name = ckDistro DAILY GOTHAM USER Profile
+description = A USER profile page sub-theme for based on ckDistro HOME
+screenshot = screenshot.png
+version = 6-alpha
+core = 6.x
+engine = phptemplate
+base theme = ckdistroHOME
+
+; Stylesheets
+;stylesheets[all][] = css/colour.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/wireframe-user.css
+
+
+; Regions
+regions[toolbox] = Toolbox
+regions[top] = Top
+regions[menubar] = Menubar
+regions[pagebar] = Pagebar
+regions[topcontent] = Top Content
+regions[content] = Content
+regions[topsidebar] = Top Sidebar
+regions[sidebar] = Sidebar
+regions[topfooter]  = Top Footer
+regions[footer]  = Footer
+
+; Settings
+features[] = favicon
+features[] = logo
+
+; Information added by Liza Sabater
+version = "6-alpha"
+core = "6.x"
+project = "ckDistro"
+datestamp = "23 MAY 2011"
+

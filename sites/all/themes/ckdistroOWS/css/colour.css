@@ -1,0 +1,37 @@
+/*
+**
+**	COLOUR
+	DO NOT CHANGE UNLESS PERMANENTLY!
+        if you change this .css, you will need to go to the themese configuration page and save it again. 
+        this will generate a new temporary copy of COLOUR.CSS
+**
+**
+*/
+
+
+
+/*******************************
+	Links Backgrounds
+*******************************/
+
+a {
+	color:#394a09;
+}
+
+
+#header {
+	background-color:#ffcc00;
+	background-image:url(/ckdistroBETABasic/sites/all/themes/ckdistroOWS/css/gradient.png);
+	color:#010101;
+}
+
+#topfooter {
+	background-color:#eeeeee;
+	color:#010101;
+}
+
+#footer {
+	background-color:#000;
+	background-image:url(/ckdistroBETABasic/sites/all/themes/ckdistroOWS/css/footer.png);
+	color:#010101;
+}
